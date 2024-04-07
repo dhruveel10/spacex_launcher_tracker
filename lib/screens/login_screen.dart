@@ -43,7 +43,7 @@ class LoginScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Center(
-        child: SingleChildScrollView( // SingleChildScrollView added to handle overflow
+        child: SingleChildScrollView(
           child: Container(
             padding: EdgeInsets.all(20.0),
             child: Column(

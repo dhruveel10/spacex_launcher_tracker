@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:spacex_launcher_tracker/widgets/launch_card.dart';
 
 import '../models/launch.dart';
 import '../services/firestore_service.dart';
-import 'launch_details_screen.dart';
-
-// Inside SavedCards
 
 class SavedCards extends StatelessWidget {
   final FirestoreService _firestoreService = FirestoreService();

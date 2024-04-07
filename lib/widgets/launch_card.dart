@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:intl/intl.dart';
-import 'package:share/share.dart'; // Import the share package
+import 'package:share/share.dart';
 import '../models/launch.dart';
 import '../screens/launch_details_screen.dart';
 import '../services/firestore_service.dart';
@@ -99,7 +99,7 @@ class _LaunchCardState extends State<LaunchCard> {
                       ElevatedButton.icon(
                         onPressed: () {
                           Share.share(widget
-                              .launch.webcastLink!); // Share the article link
+                              .launch.webcastLink!);
                         },
                         icon: Icon(Icons.ios_share),
                         label: Text(''),
